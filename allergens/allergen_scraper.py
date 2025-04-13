@@ -83,7 +83,7 @@ for i in range(len(allergen_links)):
     time.sleep(2)  # Wait for the page to reload
 
 #Save the dataframe
-df.to_csv("allergen_synonyms.csv", index=False)
+df.to_csv("/Users/mona/PycharmProjects/allergens/allergens/allergen_synonyms.csv", index=False, sep=';')
 
 #Close the driver
 driver.quit()
